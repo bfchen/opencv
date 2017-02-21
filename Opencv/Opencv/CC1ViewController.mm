@@ -38,14 +38,15 @@
     [super viewDidAppear:animated];
     
     [_videoCamera start];
-    
 }
+
 
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
     
     [_videoCamera stop];
 }
+
 
 
 #pragma mark - CvVideoCameraDelegate

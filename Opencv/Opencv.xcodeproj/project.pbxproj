@@ -26,6 +26,8 @@
 		A1AD6E941E5C27F200502711 /* CC1ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1AD6E931E5C27F200502711 /* CC1ViewController.mm */; };
 		A1AD6E981E5C2CB600502711 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD6E961E5C2CB600502711 /* MainViewController.m */; };
 		A1AD6E991E5C2CB600502711 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1AD6E971E5C2CB600502711 /* MainViewController.xib */; };
+		A1AD6E9C1E5C3B2500502711 /* CC2ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A1AD6E9B1E5C3B2500502711 /* CC2ViewController.mm */; };
+		A1AD6E9E1E5C3C2800502711 /* mountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1AD6E9D1E5C3C2800502711 /* mountain.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,9 @@
 		A1AD6E951E5C2CB600502711 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		A1AD6E961E5C2CB600502711 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		A1AD6E971E5C2CB600502711 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		A1AD6E9A1E5C3B2500502711 /* CC2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC2ViewController.h; sourceTree = "<group>"; };
+		A1AD6E9B1E5C3B2500502711 /* CC2ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CC2ViewController.mm; sourceTree = "<group>"; };
+		A1AD6E9D1E5C3C2800502711 /* mountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mountain.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +130,8 @@
 				A1AD6E971E5C2CB600502711 /* MainViewController.xib */,
 				A1AD6E921E5C27F200502711 /* CC1ViewController.h */,
 				A1AD6E931E5C27F200502711 /* CC1ViewController.mm */,
+				A1AD6E9A1E5C3B2500502711 /* CC2ViewController.h */,
+				A1AD6E9B1E5C3B2500502711 /* CC2ViewController.mm */,
 				A1AD6E141E5BC27200502711 /* Main.storyboard */,
 				A1AD6E171E5BC27200502711 /* Assets.xcassets */,
 				A1AD6E191E5BC27200502711 /* LaunchScreen.storyboard */,
@@ -137,6 +144,7 @@
 		A1AD6E0B1E5BC27200502711 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A1AD6E9D1E5C3C2800502711 /* mountain.jpg */,
 				A1AD6E0C1E5BC27200502711 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -251,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1AD6E9E1E5C3C2800502711 /* mountain.jpg in Resources */,
 				A1AD6E1B1E5BC27200502711 /* LaunchScreen.storyboard in Resources */,
 				A1AD6E181E5BC27200502711 /* Assets.xcassets in Resources */,
 				A1AD6E161E5BC27200502711 /* Main.storyboard in Resources */,
@@ -275,6 +284,7 @@
 				A1AD6E941E5C27F200502711 /* CC1ViewController.mm in Sources */,
 				A1AD6E101E5BC27200502711 /* AppDelegate.m in Sources */,
 				A1AD6E981E5C2CB600502711 /* MainViewController.m in Sources */,
+				A1AD6E9C1E5C3B2500502711 /* CC2ViewController.mm in Sources */,
 				A1AD6E0D1E5BC27200502711 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

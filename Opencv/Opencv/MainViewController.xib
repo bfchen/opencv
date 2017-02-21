@@ -58,9 +58,12 @@
                     <state key="normal" title="摄像头彩色转换灰度"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Eg-Cl-pm6">
-                    <rect key="frame" x="333" y="84" width="138" height="30"/>
+                    <rect key="frame" x="356" y="84" width="92" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="摄像头彩色转换灰度"/>
+                    <state key="normal" title="获取图片轮廓"/>
+                    <connections>
+                        <action selector="getImageEdge:" destination="-1" eventType="touchUpInside" id="ZZ5-Rw-ZLI"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jSl-sT-LAo">
                     <rect key="frame" x="113" y="160" width="138" height="30"/>
