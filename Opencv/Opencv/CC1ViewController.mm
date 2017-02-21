@@ -9,11 +9,14 @@
 #import "CC1ViewController.h"
 #import <opencv2/opencv.hpp>
 #import <opencv2/highgui/cap_ios.h>
+#import <opencv2/imgproc/types_c.h>
+#import <opencv2/highgui/ios.h>
 
 @interface CC1ViewController ()<CvVideoCameraDelegate>{
-    
+    cv::Mat _cvImage;
     UIImageView *_cameraView;
     CvVideoCamera *_videoCamera;
+    
 }
 @end
 
@@ -66,8 +69,31 @@
     cv::bitwise_not(image_copy, image_copy);
     // 将处理后的图片赋值给image，用来显示
     cv::cvtColor(image_copy, image, cv::COLOR_GRAY2BGR);
+    
+    
+    // 或取图片轮廓
+//    cv::Mat gray;
+//    
+//    // convert the image to grayScale
+//    cv::cvtColor(image, gray, CV_RGBA2GRAY);
+//    
+//    // apply Gaussian filter to remove samll edges
+//    cv::GaussianBlur(gray, gray, cv::Size(5, 5), 1.2, 1.2);
+//    
+//    // Calculate edges with Canny
+//    cv::Mat edges;
+//    cv::Canny(gray, edges, 0, 60);
+//    
+//    // fill image with white color
+//    _cvImage.setTo(cv::Scalar::all(255));
+//    
+//    // change color on edges
+//    _cvImage.setTo(cv::Scalar(0, 100, 100, 100), edges);
+//    
+//    // convert cv::Mat to UIImage and show the resulting image
+//    cv::cvtColor(edges, image, cv::COLOR_GRAY2BGR);
+    
 }
-
 
 
 @end
