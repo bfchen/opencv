@@ -53,9 +53,12 @@
                     <state key="normal" title="摄像头彩色转换灰度"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGS-qf-iu7">
-                    <rect key="frame" x="553" y="84" width="138" height="30"/>
+                    <rect key="frame" x="591" y="84" width="62" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="摄像头彩色转换灰度"/>
+                    <state key="normal" title="透视变换"/>
+                    <connections>
+                        <action selector="transformImage:" destination="-1" eventType="touchUpInside" id="DSn-aS-Gea"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Eg-Cl-pm6">
                     <rect key="frame" x="356" y="84" width="92" height="30"/>

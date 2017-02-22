@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A18FF58D1E5D1C1000F2684E /* TransformationViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A18FF58C1E5D1C1000F2684E /* TransformationViewController.mm */; };
 		A1AD6E0D1E5BC27200502711 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD6E0C1E5BC27200502711 /* main.m */; };
 		A1AD6E101E5BC27200502711 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD6E0F1E5BC27200502711 /* AppDelegate.m */; };
 		A1AD6E161E5BC27200502711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1AD6E141E5BC27200502711 /* Main.storyboard */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A18FF58B1E5D1C1000F2684E /* TransformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformationViewController.h; sourceTree = "<group>"; };
+		A18FF58C1E5D1C1000F2684E /* TransformationViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TransformationViewController.mm; sourceTree = "<group>"; };
 		A1AD6E081E5BC27200502711 /* Opencv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Opencv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1AD6E0C1E5BC27200502711 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1AD6E0E1E5BC27200502711 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				A1AD6E931E5C27F200502711 /* CC1ViewController.mm */,
 				A1AD6E9A1E5C3B2500502711 /* CC2ViewController.h */,
 				A1AD6E9B1E5C3B2500502711 /* CC2ViewController.mm */,
+				A18FF58B1E5D1C1000F2684E /* TransformationViewController.h */,
+				A18FF58C1E5D1C1000F2684E /* TransformationViewController.mm */,
 				A1AD6E141E5BC27200502711 /* Main.storyboard */,
 				A1AD6E171E5BC27200502711 /* Assets.xcassets */,
 				A1AD6E191E5BC27200502711 /* LaunchScreen.storyboard */,
@@ -282,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1AD6E941E5C27F200502711 /* CC1ViewController.mm in Sources */,
+				A18FF58D1E5D1C1000F2684E /* TransformationViewController.mm in Sources */,
 				A1AD6E101E5BC27200502711 /* AppDelegate.m in Sources */,
 				A1AD6E981E5C2CB600502711 /* MainViewController.m in Sources */,
 				A1AD6E9C1E5C3B2500502711 /* CC2ViewController.mm in Sources */,

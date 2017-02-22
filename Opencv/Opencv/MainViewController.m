@@ -9,7 +9,7 @@
 #import "MainViewController.h"
 #import "CC1ViewController.h"
 #import "CC2ViewController.h"
-
+#import "TransformationViewController.h"
 
 @interface MainViewController ()
 
@@ -34,5 +34,10 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
+// 透视变换
+- (IBAction)transformImage:(id)sender {
+    TransformationViewController *vc = [[TransformationViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 @end
